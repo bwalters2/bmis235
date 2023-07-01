@@ -1,0 +1,75 @@
+.resumeHeading {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.resumeBody {
+    font-weight: bold;
+}
+
+.resumeYear {
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.arial {font-family: Arial, Helvetica, sans-serif;}
+
+.background {
+    background-image: url('../images/water.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.common {
+    /* background-color: #cccccc; */
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    background-color: #ffffff;
+    color: black;
+
+}
+
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    padding-right: 5px;
+    width: 40%;
+    height: 40%;
+
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
+
+.subheader {
+    float: right;
+}
+
+.tabheader {
+    text-align: center;
+    font-weight: bold;
+}
+
+.tabcaption {
+    font-size: 20px;
+    background-color: #ffffff;
+}
